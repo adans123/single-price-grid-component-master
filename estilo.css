@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(120, 176, 248);
+    font-family: 'Karla', sans-serif;
+}
+
+.contenedor-join{
+    width: 100%;
+    height: auto;
+    background-color: rgb(120, 176, 248);
+    max-width: 1600px;
+}
+
+.contenedor-contenido-join{
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+
+}
+.contenido-join{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+.contenido-join-text{
+   margin: 30px 0px 0px 50px;
+}
+.contenido-join-text h1{
+    margin: 10px 0px;
+    color: hsl(179, 62%, 43%);
+}
+.contenido-join-text h2{
+    font-size: 22px;
+    margin: 30px 0px 0px 0px  ;
+    color: hsl(71, 73%, 54%);
+}
+.contenido-join-text p{
+    margin: 8px 0px 100px 0px ;
+    line-height: 30px;
+    color: grey;
+}
+/* ================================================================================================= */
+
+.contenido-dos-join{
+    width:100% ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenido-price-text{
+    margin: 25px 0px 20px 50px ;
+}
+.contenido-price-text h3{
+    margin: 10px 0px;
+}
+
+.contenido-price-text h6{
+    font-size: 20px;
+    color: rgb(197, 194, 194);
+    margin-bottom: 10px;
+}
+.contenido-price-text  h6 span{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+button{
+    width: 220px;
+    height: 45px ;
+    border-radius: 5px ;
+    margin: 15px 0px 50px 45px ;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+}
+
+
+.contenido-price{
+    width: 50%;
+  
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px 0px 0px 15px ;
+    color: white;
+}
+.contenido-why{
+    width: 50%;
+    background-color: hsl(179, 66%, 47%);
+    border-radius: 0px 0px 15px 0px ;
+    color: white;
+}
+.contenido-why-text{
+    margin: 30px 0px 30px 50px;
+}
+
+/* ========================================================================= */
+@media screen and (max-width:1100px) {
+    .contenedor-contenido-join {
+        width: 80%;
+    }
+    
+}
+/* ========================================================================================= */
+
+@media screen and (max-width:800px) {
+    .contenedor-contenido-join {
+        width: 350px;
+    }
+    .contenido-join{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .contenido-join-text{
+        margin: 30px 25px;
+     }
+     .contenido-join-text p{
+        margin: 8px 0px 40px 0px ;
+        
+    }
+    .contenido-price{
+      width: 100%;
+      border-radius: 0px 0px ;
+    }
+    .contenido-price-text{
+        margin: 35px 0px 30px 30px;
+    }
+   
+   .contenido-why{
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+   
+   }
+   
+   .contenido-why-text{
+      margin: 30px 0px 40px 30px;
+    }
+
+    button{
+       width: 80%;
+       margin: 30px 0px 30px 30px  ;
+   }    
+}
+
+
